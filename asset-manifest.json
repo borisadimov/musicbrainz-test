@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/musicbrainz-test/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/musicbrainz-test/static/js/main.20bd3bcd.chunk.js",
+    "main.js.map": "/musicbrainz-test/static/js/main.20bd3bcd.chunk.js.map",
+    "runtime-main.js": "/musicbrainz-test/static/js/runtime-main.9e202094.js",
+    "runtime-main.js.map": "/musicbrainz-test/static/js/runtime-main.9e202094.js.map",
+    "static/js/2.fd081273.chunk.js": "/musicbrainz-test/static/js/2.fd081273.chunk.js",
+    "static/js/2.fd081273.chunk.js.map": "/musicbrainz-test/static/js/2.fd081273.chunk.js.map",
+    "index.html": "/musicbrainz-test/index.html",
+    "precache-manifest.e955f8463e7ce96ba1e438fbeb7e6469.js": "/musicbrainz-test/precache-manifest.e955f8463e7ce96ba1e438fbeb7e6469.js",
+    "service-worker.js": "/musicbrainz-test/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/musicbrainz-test/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.fd081273.chunk.js.LICENSE.txt": "/musicbrainz-test/static/js/2.fd081273.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e202094.js",
+    "static/js/2.fd081273.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.20bd3bcd.chunk.js"
+  ]
+}
