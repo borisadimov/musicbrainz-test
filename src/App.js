@@ -1,25 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import styled from 'styled-components';
+
+import Search from './Search'
+import {Library} from './Library'
+import {useFavouritesStorage} from './hooks/useFavoriteStorage'
+
+const Layout = styled.div`
+  display: flex;
+
+`
 
 function App() {
+  const [favorites, {add, remove}] = useFavouritesStorage()
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <Layout>
+     <Search favorites={favorites} onRemove={remove} onAdd={add} />
+     <Library favorites={favorites} onRemove={remove}/>
+   </Layout>
   );
 }
 
